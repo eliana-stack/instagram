@@ -1,0 +1,128 @@
+body{
+    background-color: black;
+    color: white;
+}
+.auth-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.logo{
+    font-family: "instagram-font";
+    font-size: 50px;
+}
+input{
+    background-color: rgb(50, 50, 50);
+    padding: 8px;
+    width: 300px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    columns: white;
+}
+input::placeholder{
+    color: gray;
+}
+button{
+    background-color: rgba(89, 145, 235, 0.879);
+    height: 34px;
+    color: white;
+    width: 320px;
+    font-size: 12px;
+    border: none;
+    border-radius: 10px;
+
+
+}
+.divider{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.fb{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.fb-login{
+    color: rgb(46, 46, 169);
+    text-decoration: none;
+    font-weight: bold;
+}
+.app-links{
+    display: flex;
+    gap: 20px;
+}
+.sign-up-link{
+    color: rgb(99, 174, 221);
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.footer-links{
+    display: flex;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    align-items: center;
+    font-size: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.more{
+    display: flex;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    align-items: center;
+    font-size: 16px;
+}
+.copyright{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 80px
+
+}
+hr{
+    width: 100px;
+    height: 0px;
+    border: 0.1px solid rgb(39, 38, 38);
+    
+}
+
+@font-face{
+    font-family: "instagram-font";
+    src:url("assets/fonts/instagram-font.otf");
+}
+
+@media(max-width:700px){
+    .hero-img{
+        display: none;
+    }
+}
+    
+
+
